@@ -12,6 +12,7 @@
         <module>domain</module>
         <module>usecase</module>
         <module>adapter/repository/in-memory-db-simple</module>
+        <module>adapter/repository/in-memory-db-hazelcast</module>
     </modules>
 
     <properties>
@@ -26,6 +27,12 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.8</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
