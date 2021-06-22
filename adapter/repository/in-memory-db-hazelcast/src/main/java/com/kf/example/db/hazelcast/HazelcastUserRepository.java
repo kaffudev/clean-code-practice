@@ -27,8 +27,8 @@ public class HazelcastUserRepository implements UserRepository {
     public Optional<User> findById(String id) {
         var map = HAZELCAST.<String, UserDb>getMap(MAP_NAME);
         if (map.containsKey(id)) {
-            var userdb = map.get(id);
-            return Optional.of(userdb.toUser());
+            var userDb = map.get(id);
+            return Optional.of(userDb.toUser());
         }
         return Optional.empty();
     }
