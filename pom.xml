@@ -15,6 +15,7 @@
         <module>adapter/repository/in-memory-db-hazelcast</module>
         <module>adapter/id-generator/uuid-id-generator</module>
         <module>adapter/encoder/sha256-encoder</module>
+        <module>config</module>
     </modules>
 
     <properties>
