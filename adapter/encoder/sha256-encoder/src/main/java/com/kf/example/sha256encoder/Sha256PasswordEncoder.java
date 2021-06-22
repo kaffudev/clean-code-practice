@@ -4,7 +4,7 @@ import com.kf.example.usecase.ports.PasswordEncoder;
 import org.apache.commons.codec.digest.DigestUtils;
 
 
-public class Encoder implements PasswordEncoder {
+public class Sha256PasswordEncoder implements PasswordEncoder {
     @Override
     public String encode(String s) {
         return DigestUtils.sha3_256Hex(s);
