@@ -16,6 +16,7 @@
         <module>adapter/id-generator/uuid-id-generator</module>
         <module>adapter/encoder/sha256-encoder</module>
         <module>config</module>
+        <module>app/manual-app</module>
     </modules>
 
     <properties>
