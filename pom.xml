@@ -17,6 +17,7 @@
         <module>adapter/encoder/sha256-encoder</module>
         <module>config</module>
         <module>app/manual-app</module>
+        <module>adapter/id-generator/fancy-id-generator</module>
     </modules>
 
     <properties>
