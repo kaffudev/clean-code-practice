@@ -17,10 +17,9 @@ public class Main {
                 .withLastName("Ogor")
                 .build();
 
-
         //create a user
         var actualCreateUser = createUser.create(user);
-        System.out.println("LOG -- user created with id : " + user.getId());
+        System.out.println("LOG -- user created with id : " + actualCreateUser.getId());
 
         // find user by id
         var actualFindUser = findUser.findById(actualCreateUser.getId());
