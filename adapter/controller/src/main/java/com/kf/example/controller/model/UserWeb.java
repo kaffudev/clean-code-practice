@@ -1,4 +1,4 @@
-package model;
+package com.kf.example.controller.model;
 
 import com.kf.example.domain.entity.User;
 

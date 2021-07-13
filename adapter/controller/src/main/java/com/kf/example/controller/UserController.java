@@ -1,7 +1,9 @@
+package com.kf.example.controller;
+
 import com.kf.example.usecase.CreateUser;
 import com.kf.example.usecase.FindUser;
 import com.kf.example.usecase.LoginUser;
-import model.UserWeb;
+import com.kf.example.controller.model.UserWeb;
 
 import java.util.List;
 import java.util.stream.Collectors;
