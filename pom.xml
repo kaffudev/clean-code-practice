@@ -19,6 +19,7 @@
         <module>app/manual-app</module>
         <module>adapter/id-generator/fancy-id-generator</module>
         <module>adapter/controller</module>
+        <module>app/spring-app</module>
     </modules>
 
     <properties>
